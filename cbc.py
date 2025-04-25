@@ -1,5 +1,4 @@
 from functions import aes_encrypt, aes_decrypt, xor_bytes
-import os
 
 # CBC Mode
 class CBC:

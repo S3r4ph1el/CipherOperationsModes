@@ -1,5 +1,4 @@
 from functions import aes_encrypt, aes_decrypt
-import os
 
 # ECB Mode
 class ECB:
