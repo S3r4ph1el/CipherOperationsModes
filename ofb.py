@@ -1,4 +1,5 @@
 from functions import aes_encrypt, xor_bytes
+import os
 
 # OFB Mode
 class OFB:

@@ -1,4 +1,5 @@
 from functions import aes_encrypt, xor_bytes
+import os
 
 # CFB Mode
 class CFB:
@@ -20,7 +21,7 @@ class CFB:
             selection = encrypted_block[:len(block)]
 
             # Cifra o bloco com os bytes selecionados
-            cipher_block += xor_bytes(block, selection)
+            cipher_block = xor_bytes(block, selection)
             ciphertext += cipher_block
 
             # Atualiza o registro com o último bloco cifrado

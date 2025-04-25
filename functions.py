@@ -1,7 +1,6 @@
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import padding
-import os
 
 # XOR de bytes
 def xor_bytes(a, b):
@@ -13,13 +12,8 @@ def aes_encrypt(key, plaintext):
     cipher = Cipher(algorithms.AES(key), modes.ECB(), backend=default_backend())
     encryptor = cipher.encryptor()
 
-    # Adiciona padding ao plaintext para que ele tenha o tamanho correto
-    # O tamanho do bloco AES é 16 bytes (128 bits)
-    padder = padding.PKCS7(128).padder()
-    padded_data = padder.update(plaintext) + padder.finalize()
-
     # Encripta o plaintext
-    ciphertext = encryptor.update(padded_data) + encryptor.finalize()
+    ciphertext = encryptor.update(plaintext) + encryptor.finalize()
     return ciphertext
 
 def aes_decrypt(key, ciphertext):
@@ -28,9 +22,5 @@ def aes_decrypt(key, ciphertext):
     decryptor = cipher.decryptor()
 
     # Desencripta o ciphertext
-    padded_data = decryptor.update(ciphertext) + decryptor.finalize()
-
-    # Remove padding
-    unpadder = padding.PKCS7(128).unpadder()
-    plaintext = unpadder.update(padded_data) + unpadder.finalize()
+    plaintext = decryptor.update(ciphertext) + decryptor.finalize()
     return plaintext
