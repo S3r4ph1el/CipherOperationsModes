@@ -1,5 +1,4 @@
 from functions import aes_encrypt, xor_bytes
-import os
 
 # CTR Mode
 class CTR:

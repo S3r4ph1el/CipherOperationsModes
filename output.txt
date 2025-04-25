@@ -1,0 +1,26 @@
+Digite o texto para criptografar: Buscai em primeiro lugar o Reino de Deus e a Sua Justiça e todas estas coisas vos serão dadas em acréscimo.                        
+
+ECB Ciphertext (Base64): prxDmPAr6EFi08aVKONeJmuKJoK6/NcRBY2Y3unfxfaYXq3bEyewnza/gzHzfhc+uv+DJofd4gNSDlmfVf5IIGWgZiC17/4P47DfPqvYo619NoAK2A10wcG7lgcKID/yLl2GDAc+fpQIddWN9a5Cnw==
+ECB Decrypted: Buscai em primeiro lugar o Reino de Deus e a Sua Justiça e todas estas coisas vos serão dadas em acréscimo.
+ECB Encryption Time: 0.083652 seconds
+ECB Decryption Time: 0.000311 seconds
+
+CBC Ciphertext (Base64): ohVkKK8rVqU3YJg/NrN5Ob3/36LdD+YmvF8XbUTgdgwON+0Z45g2mDfI23J2x5zHgrl3Wz5q/O80s8kwI7yaAjVA48GTWBl9pZC7BUDGY1BZoeCpwHUIWQeixYgBiInD7zSZmdpKEqCmwQ4xTSSlWg==
+CBC Decrypted: Buscai em primeiro lugar o Reino de Deus e a Sua Justiça e todas estas coisas vos serão dadas em acréscimo.
+CBC Encryption Time: 0.000281 seconds
+CBC Decryption Time: 0.000286 seconds
+
+CFB Ciphertext (Base64): pDyv6Y/UA4wyHr+EsWtqpqsx2RjBfL86eAycGkY486QBKb5JVBx+1AwkRPErGkOjGNqc39L5J8DAsCO4TT7AoGFs/q3jINZqFqRAm7pILz9UuY7JLol6rV2tm9n0XUqFJs5Gkco6EEnqq97ARUA+dA==
+CFB Decrypted: Buscai em primeiro lugar o Reino de Deus e a Sua Justiça e todas estas coisas vos serão dadas em acréscimo.
+CFB Encryption Time: 0.000282 seconds
+CFB Decryption Time: 0.000257 seconds
+
+OFB Ciphertext (Base64): pDyv6Y/UA4wyHr+EsWtqppTcTtmGhLMjkUbnySJ7jgRD8UNZT8K/Us7F7fBXQaWIJYD7QhJW/XrG9U24tWGJDCbDlIlV9u91np71bC0zhD9oBtjXDeSjRvDYFMkbZOJTlU6RgizuZNmXaAQoVZul3A==
+OFB Decrypted: Buscai em primeiro lugar o Reino de Deus e a Sua Justiça e todas estas coisas vos serão dadas em acréscimo.
+OFB Encryption Time: 0.000259 seconds
+OFB Decryption Time: 0.000250 seconds
+
+CTR Ciphertext (Base64): ghLXXPs6TVABHrZ4kMfhAYBkIfLBwfIOvStYnEqxFeYjeM9L551bD151ioyDow8bTaqqxvBU8R/17cfhyjL8W7nNqd7nfm00Lp5UDLdVXhvPXN+SUaMNgaIyvhJDA8JdYo1Xp/yB75GOd6kx2Sp8MA==
+CTR Decrypted: Buscai em primeiro lugar o Reino de Deus e a Sua Justiça e todas estas coisas vos serão dadas em acréscimo.
+CTR Encryption Time: 0.000260 seconds
+CTR Decryption Time: 0.000263 seconds
