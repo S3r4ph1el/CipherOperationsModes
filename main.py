@@ -13,6 +13,11 @@ def main():
     iv = os.urandom(16)  # IV para CBC, CFB e OFB
     nonce = os.urandom(8)  # Nonce para CTR
 
+    print("Chave: 0x", key.hex())
+    print("IV: 0x", iv.hex())
+    print("Nonce: 0x", nonce.hex())
+    print("\n")
+
     # Solicitar entrada do usuário
     plaintext = input("Digite o texto para criptografar: ").encode()
     print("\n")
