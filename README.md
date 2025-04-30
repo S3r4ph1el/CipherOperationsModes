@@ -10,3 +10,8 @@
 | CFB  | Cipher Feedback |
 | OFB  | Output Feedback |
 | CTR  | Counter |
+
+## How to Run
+
+- Download de zip code and execute the main function
+-      python3 main.py
